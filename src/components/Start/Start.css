@@ -1,0 +1,40 @@
+.MuiStepper-horizontal {
+    background: transparent !important;
+    margin: 0 15rem;
+}
+.MuiStep-horizontal {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.MuiStepLabel-iconContainer{
+    padding-right: 0 !important;
+}
+.makeStyles-active-5 {
+    background-image: linear-gradient(to right, #f08a5d 0%, #b83b5e 99%);
+    border: .5rem solid #b83b5e !important;
+    width: 35px !important;
+    height: 35px !important;
+    margin-top: -5px !important;
+}
+.WithStyles\(ForwardRef\(StepConnector\)\)-line-10 {
+    border-radius: 1rem !important;
+    margin-left: -2rem !important;
+    padding: 0 5rem;
+    display: none !important;
+}
+.WithStyles\(ForwardRef\(StepConnector\)\)-active-8 .WithStyles\(ForwardRef\(StepConnector\)\)-line-10 {
+    background-image: linear-gradient(to right, #f08a5d 0%, #b83b5e 99%);
+    display: block !important;
+    padding: 0 3.5rem !important;
+}
+
+.WithStyles\(ForwardRef\(StepConnector\)\)-completed-9 .WithStyles\(ForwardRef\(StepConnector\)\)-line-10 {
+    background-image: linear-gradient( 95deg,rgb(242,113,33) 0%,rgb(233,64,87) 50%,rgb(138,35,135) 100%);
+    display: block !important;
+} 
+/* .WithStyles\(ForwardRef\(StepConnector\)\)-line-87 {
+    background-color: transparent !important;
+    width: 250% !important;
+    margin-left: -3rem !important;
+    border-radius: 2rem !important;
+} */

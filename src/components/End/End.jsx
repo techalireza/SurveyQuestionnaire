@@ -1,9 +1,9 @@
 import React from 'react'
 import { Button, Container, Row, Col } from 'reactstrap'
 import { Link } from 'react-router-dom'
-import './Main.css'
+import '../Main/Main.css'
 
-function Main({ initialData }) {
+function End({outPut , initialData}) {
     return (
         <div style={{backgroundImage: `url(${initialData.background_url})` , backgroundRepeat:"no-repeat", backgroundSize:"cover" ,backgroundPosition:"center 30%" , height:"100vh"}}>
             <Container>
@@ -11,9 +11,6 @@ function Main({ initialData }) {
                     <Col xs={12} md={8} className="mx-auto d-flex flex-column">
                         <h2 className="mx-auto text-center">فرم نظرسنجی و ارتقا سطح خدمت رسانی</h2>
                         <img src={initialData.logo_url} class="mx-auto w-35 mt-3" alt="" />
-                        <Link to="/started"  className="mx-auto mt-5">
-                            <Button className="my-btn">شروع</Button>
-                        </Link>
                     </Col>
                 </Row>
                 <Row>
@@ -34,4 +31,4 @@ function Main({ initialData }) {
     )
 }
 
-export default Main
+export default End

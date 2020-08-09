@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Main from './components/Main/Main';
 import Start from './components/Start/Start';
+import End from './components/End/End';
 
 function App() {
   const [initialData, setInitialData] = useState({
@@ -30,17 +31,16 @@ function App() {
       // { id: "9", text: "", option: [{ key: 1, text: "" }, { key: 2, text: "" }, { key: 3, text: "" },] },
       // { id: "10", text: "", option: [{ key: 1, text: "" }, { key: 2, text: "" }, { key: 3, text: "" },] },
     ],
-    background_url: "https://pixabay.com/get/5ee2dd454e5ab108f5d08460c62f347d113cdbec4e507440732773d5914ec2_1280.jpg"
+    background_url: "https://unsplash.com/photos/oJEe7gWwWlo/download?force=true&w=1920"
   })
-  const [outPut, setOutPut] = useState([
-    { id: "1", answer: "" },
-    { id: "2", answer: "" },
-    { id: "3", answer: "" },
-  ])
+  const [outPut, setOutPut] = useState([])
 
   return (
     <Router>
       <Switch>
+        <Route exact path="/end">
+          <End outPut={outPut} initialData={initialData} />
+        </Route>
         <Route exact path="/started">
           <Start initialData={initialData} outPut={outPut} setOutPut={setOutPut} />
         </Route>
