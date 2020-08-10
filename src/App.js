@@ -32,13 +32,13 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/end">
+        <Route exact path="./end">
           <End outPut={outPut} initialData={initialData} />
         </Route>
-        <Route exact path="/started">
+        <Route exact path="./started">
           <Start initialData={initialData} outPut={outPut} setOutPut={setOutPut} />
         </Route>
-        <Route path="/">
+        <Route path="./">
           <Main initialData={initialData} />
         </Route>
       </Switch>
