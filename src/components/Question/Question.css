@@ -1,0 +1,70 @@
+.question .ques p{
+    font-size: 2rem !important;
+    margin-top: 10rem;
+}
+.question .my-btn{
+    width: auto;
+    height: auto;
+    border-radius: 3rem !important;
+    padding: .75rem 2rem  !important;
+    font-size: 1rem !important;
+    background-color: #f35988;
+    box-shadow: 0 0 0px 4px rgba(237,134,93,.6) !important;
+    margin: 3rem 1rem 0 !important;
+    flex-direction: row !important;
+    font-weight: 700;
+
+}
+.question .my-btn:focus{
+    outline: none !important;
+}
+.question .my-btn:hover{
+    background-color: #FC427B
+}
+.handle-margin{
+    margin-top: 13rem !important;
+}
+.w-4{
+    width: 4% !important;
+}
+.w-15{
+    width: 15% !important;
+}
+.crm h3{
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.crm p{
+    font-size: .8rem;
+}
+@media screen and (max-width: 992px){
+    .question .my-btn{
+        direction: ltr !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: flex-end !important;
+        margin: 1rem auto !important;
+        right: 0 !important;
+    }
+    .question .ques p{
+        font-size: 2rem !important;
+        margin-top: 5rem;
+    }
+    .handle-margin{
+        margin-top: 0 !important;
+    }
+    .crm p{
+        text-align: center !important;
+    }
+    .crm h3{
+        margin-top: 0;
+        text-align: center !important;
+    }
+    .w-4{
+        width: 15% !important;
+    }
+    .w-15{
+        width: 50% !important;
+    }
+}

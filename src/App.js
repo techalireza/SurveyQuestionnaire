@@ -23,13 +23,7 @@ function App() {
       { id: "5", text: "آیا از زمان انتظار برای پیدا شدن سفیر تپسی راضی هستید؟", option: [{ key: 1, text: "آره جونم" }, { key: 2, text: "دفه بعد زود بیا :|" }, { key: 3, text: "دهنت سرویس ):" },] },
       { id: "6", text: "آیا از قیمت ها راضی هستید؟", option: [{ key: 1, text: "بد نیست (:" }, { key: 2, text: "اسنپ ارزون تره:|" }, { key: 3, text: "کردی تو پامون ):" },] },
       { id: "7", text: "انتقادات و پیشنهادانتون رو با ما درمیون بزارید", option: [{ key: 1, text: "باشه :|" }, { key: 2, text: "خدا شفات بده (:" }, { key: 3, text: "تو خوبی :(" },] },
-      { id: "8", text: "خسته شدم", option: [{ key: 1, text: ":)))))" }, { key: 2, text: ":||||" }, { key: 3, text: ":((((" },] },
-      // { id: "5", text: "", option: [{ key: 1, text: "" }, { key: 2, text: "" }, { key: 3, text: "" },] },
-      // { id: "6", text: "", option: [{ key: 1, text: "" }, { key: 2, text: "" }, { key: 3, text: "" },] },
-      // { id: "7", text: "", option: [{ key: 1, text: "" }, { key: 2, text: "" }, { key: 3, text: "" },] },
-      // { id: "8", text: "", option: [{ key: 1, text: "" }, { key: 2, text: "" }, { key: 3, text: "" },] },
-      // { id: "9", text: "", option: [{ key: 1, text: "" }, { key: 2, text: "" }, { key: 3, text: "" },] },
-      // { id: "10", text: "", option: [{ key: 1, text: "" }, { key: 2, text: "" }, { key: 3, text: "" },] },
+      { id: "8", text: "خسته شدم", option: [{ key: 1, text: ":)))))" }, { key: 2, text: ":||||" }, { key: 3, text: ":((((" },] }
     ],
     background_url: "https://unsplash.com/photos/oJEe7gWwWlo/download?force=true&w=1920"
   })

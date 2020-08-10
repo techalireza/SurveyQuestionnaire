@@ -1,0 +1,23 @@
+.end h2{
+    margin-top: 10rem !important;
+    margin-bottom: 3rem !important;
+}
+.end .w-35{
+    width: 35%;
+    margin-bottom: 18rem !important;
+}
+.end .w-10{
+    width: 10%;
+}
+
+
+@media screen and (max-width: 992px) {
+    .end h2{
+        margin-top: 8rem !important;
+        margin-bottom: 18rem !important;
+    }
+    .end .w-35{
+        width: 35%;
+        margin-bottom: 2rem !important;
+    }
+}

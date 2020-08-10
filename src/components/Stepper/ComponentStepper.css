@@ -1,0 +1,35 @@
+.MuiStepper-horizontal {
+    background: transparent !important;
+    margin: 0 15rem;
+}
+
+.makeStyles-active-5 {
+    background-image: linear-gradient(to right, #f08a5d 0%, #b83b5e 99%);
+    box-shadow: 0 0 0px 5px rgba(237,134,93,.6) !important;
+    transition: 1s all ease !important;
+}
+.WithStyles\(ForwardRef\(StepConnector\)\)-line-10 {
+    border-radius: 1rem !important;
+    display: none !important;
+    padding: 0 3rem;
+    margin-left: -1.5rem;
+}
+.WithStyles\(ForwardRef\(StepConnector\)\)-active-8 .WithStyles\(ForwardRef\(StepConnector\)\)-line-10 {
+    background-image: linear-gradient(to right, #f08a5d 0%, #b83b5e 99%);
+    display: block !important;
+}
+
+.WithStyles\(ForwardRef\(StepConnector\)\)-completed-9 .WithStyles\(ForwardRef\(StepConnector\)\)-line-10 {
+    background-image: linear-gradient( 95deg,rgb(242,113,33) 0%,rgb(233,64,87) 50%,rgb(138,35,135) 100%);
+    display: block !important;
+}
+@media screen and (max-width: 992px) {
+    .MuiStepper-horizontal {
+        margin: 0 !important;
+        padding-left: 0 !important;
+    }
+    .WithStyles\(ForwardRef\(StepConnector\)\)-line-10 {
+        padding: 0 1.5rem;
+        margin-left: -1.5rem;
+    }
+  }
