@@ -2,6 +2,8 @@ import React from 'react'
 import { Button, Container, Row, Col } from 'reactstrap'
 import { Link } from 'react-router-dom'
 import '../End/End.css'
+import logo from '../../img/tap30-logo.png'; // Tell webpack this JS file uses this image
+import myLogo from '../../img/my-logo.png'; // Tell webpack this JS file uses this image
 
 function End({ outPut, initialData }) {
     console.log("out put : ", outPut)
@@ -12,7 +14,7 @@ function End({ outPut, initialData }) {
                     <Row>
                         <Col xs={12} md={8} className="mx-auto d-flex flex-column">
                             <h2 id="end-title" className="mx-auto text-center">با تشکر از زمانی که صرف پاسخ گویی به سوالات کردید</h2>
-                            <img src={initialData.logo_url} class="mx-auto w-35" alt="" />
+                            <img src={logo} class="mx-auto w-35" alt="" />
                         </Col>
                     </Row>
                     <Row>
@@ -20,7 +22,7 @@ function End({ outPut, initialData }) {
                             <h3 className="text-center">
                                 قدرت گرفته از
                             <a href="//www.google.com">
-                                    <img src="../../../img/my-logo.png" className="w-10" alt="" />
+                                    <img src={myLogo} className="w-10" alt="" />
                                 </a>
                             </h3>
                             <p className="text-center">

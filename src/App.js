@@ -9,12 +9,13 @@ import {
 import Main from './components/Main/Main';
 import Start from './components/Start/Start';
 import End from './components/End/End';
+import logo from './img/tap30-logo.png'; 
 
 function App() {
   const [initialData, setInitialData] = useState({
     organization_name: "tap30",
     organization_name_fa: "تپسی",
-    logo_url: "../img/tap30-logo.png",
+    logo_url: {logo},
     question: [
       { id: "1", text: "آیا از زمان انتظار برای پیدا شدن سفیر تپسی راضی هستید؟", option: [{ key: 1, text: "آره جونم" }, { key: 2, text: "دفه بعد زود بیا :|" }, { key: 3, text: "دهنت سرویس ):" },] },
       { id: "2", text: "آیا از قیمت ها راضی هستید؟", option: [{ key: 1, text: "بد نیست (:" }, { key: 2, text: "اسنپ ارزون تره:|" }, { key: 3, text: "کردی تو پامون ):" },] },
@@ -32,13 +33,13 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="./end">
+        <Route exact path="/end">
           <End outPut={outPut} initialData={initialData} />
         </Route>
-        <Route exact path="./started">
+        <Route exact path="/started">
           <Start initialData={initialData} outPut={outPut} setOutPut={setOutPut} />
         </Route>
-        <Route path="./">
+        <Route path="/">
           <Main initialData={initialData} />
         </Route>
       </Switch>

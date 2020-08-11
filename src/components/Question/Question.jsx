@@ -3,6 +3,8 @@ import { Link, useHistory } from 'react-router-dom'
 import Button from '@material-ui/core/Button';
 import { Row, Col } from 'reactstrap'
 import './Question.css'
+import logo from '../../img/tap30-logo.png'; // Tell webpack this JS file uses this image
+import myLogo from '../../img/my-logo.png'; // Tell webpack this JS file uses this image
 
 function Question({ activeStep, setActiveStep, initialData, setOutPut, outPut }) {
     let history = useHistory();
@@ -44,12 +46,12 @@ function Question({ activeStep, setActiveStep, initialData, setOutPut, outPut })
             </div>
             <Row>
                 <Col xs={12} md={12} className="mx-auto d-lg-flex flex-row justify-content-between align-items-end handle-margin px-5" style={{ direction: 'rtl', textAlign: 'center', marginTop: '2rem' }}>
-                    <img src={initialData.logo_url} class="mx-auto w-15 my-4" alt="" />
+                    <img src={logo} class="mx-auto w-15 my-4" alt="" />
                     <div className="crm">
                         <h3 className="text-left">
                             قدرت گرفته از
                             <a href="//www.google.com">
-                                <img src="../../../img/my-logo.png" className="mr-3 w-4" alt="" />
+                                <img src={myLogo} className="mr-3 w-4" alt="" />
                             </a>
                         </h3>
                         <p className="text-left">
