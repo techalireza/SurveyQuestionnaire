@@ -1,27 +1,29 @@
 {
   "files": {
     "main.css": "/SurveyQuestionnaire/static/css/main.9b68b6e7.chunk.css",
-    "main.js": "/SurveyQuestionnaire/static/js/main.113d4c42.chunk.js",
-    "main.js.map": "/SurveyQuestionnaire/static/js/main.113d4c42.chunk.js.map",
+    "main.js": "/SurveyQuestionnaire/static/js/main.b7023862.chunk.js",
+    "main.js.map": "/SurveyQuestionnaire/static/js/main.b7023862.chunk.js.map",
     "runtime-main.js": "/SurveyQuestionnaire/static/js/runtime-main.3170e840.js",
     "runtime-main.js.map": "/SurveyQuestionnaire/static/js/runtime-main.3170e840.js.map",
     "static/css/2.53823a3d.chunk.css": "/SurveyQuestionnaire/static/css/2.53823a3d.chunk.css",
-    "static/js/2.5d4d5d6b.chunk.js": "/SurveyQuestionnaire/static/js/2.5d4d5d6b.chunk.js",
-    "static/js/2.5d4d5d6b.chunk.js.map": "/SurveyQuestionnaire/static/js/2.5d4d5d6b.chunk.js.map",
+    "static/js/2.225fb9a0.chunk.js": "/SurveyQuestionnaire/static/js/2.225fb9a0.chunk.js",
+    "static/js/2.225fb9a0.chunk.js.map": "/SurveyQuestionnaire/static/js/2.225fb9a0.chunk.js.map",
     "index.html": "/SurveyQuestionnaire/index.html",
-    "precache-manifest.b1951fdc1be0c70cca8a415b89ed1147.js": "/SurveyQuestionnaire/precache-manifest.b1951fdc1be0c70cca8a415b89ed1147.js",
+    "precache-manifest.7d6ee1691b191133316600d76ddcc0ba.js": "/SurveyQuestionnaire/precache-manifest.7d6ee1691b191133316600d76ddcc0ba.js",
     "service-worker.js": "/SurveyQuestionnaire/service-worker.js",
     "static/css/2.53823a3d.chunk.css.map": "/SurveyQuestionnaire/static/css/2.53823a3d.chunk.css.map",
     "static/css/main.9b68b6e7.chunk.css.map": "/SurveyQuestionnaire/static/css/main.9b68b6e7.chunk.css.map",
-    "static/js/2.5d4d5d6b.chunk.js.LICENSE.txt": "/SurveyQuestionnaire/static/js/2.5d4d5d6b.chunk.js.LICENSE.txt",
+    "static/js/2.225fb9a0.chunk.js.LICENSE.txt": "/SurveyQuestionnaire/static/js/2.225fb9a0.chunk.js.LICENSE.txt",
     "static/media/App.css": "/SurveyQuestionnaire/static/media/Yekan.52ce4de2.ttf",
-    "static/media/index.css": "/SurveyQuestionnaire/static/media/iranyekanwebregular.fcb37b92.woff"
+    "static/media/index.css": "/SurveyQuestionnaire/static/media/iranyekanwebregular.fcb37b92.woff",
+    "static/media/my-logo.png": "/SurveyQuestionnaire/static/media/my-logo.09c31048.png",
+    "static/media/tap30-logo.png": "/SurveyQuestionnaire/static/media/tap30-logo.339fc17f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3170e840.js",
     "static/css/2.53823a3d.chunk.css",
-    "static/js/2.5d4d5d6b.chunk.js",
+    "static/js/2.225fb9a0.chunk.js",
     "static/css/main.9b68b6e7.chunk.css",
-    "static/js/main.113d4c42.chunk.js"
+    "static/js/main.b7023862.chunk.js"
   ]
 }
