@@ -13,16 +13,25 @@ const ColorlibConnector = withStyles({
         top: 2
     },
     active: {
-        "& $line": { backgroundImage: "linear-gradient(to right, #f08a5d 0%, #b83b5e 99%)" }
+        "& $line": {
+            backgroundImage: "linear-gradient(to right, #f08a5d 0%, #b83b5e 99%)",
+            display: "block",
+        }
     },
     completed: {
-        "& $line": { backgroundImage: "linear-gradient(to right, #f08a5d 0%, #b83b5e 99%)" }
+        "& $line": {
+            backgroundImage: "linear-gradient(to right, #f08a5d 0%, #b83b5e 99%)",
+            display: "block",
+        }
     },
     line: {
         height: 20,
         border: 10,
         backgroundColor: "#eaeaf0",
         borderRadius: 1,
+        display: "none",
+        padding: "0 3rem",
+        marginLeft: "-1.5rem",
     }
 })(StepConnector);
 
@@ -36,9 +45,13 @@ const useColorlibStepIconStyles = makeStyles({
         display: "flex",
         borderRadius: "50%",
         justifyContent: "center",
-        alignItems: "center"
+        alignItems: "center",
     },
-    active: { backgroundImage: "linear-gradient(to right, #f08a5d 0%, #b83b5e 99%)" },
+    active: {
+        backgroundImage: "linear-gradient(to right, #f08a5d 0%, #b83b5e 99%)",
+        boxShadow: "0 0 0px 5px rgba(237,134,93,.6)",
+        transition: "1s all ease"
+    },
     completed: {
         backgroundImage: "linear-gradient(to right, #f08a5d 0%, #b83b5e 99%)"
     }
@@ -61,6 +74,10 @@ function ColorlibStepIcon(props) {
 const useStyles = makeStyles((theme) => ({
     root: {
         width: '100%',
+    },
+    myStepper: {
+        background: "transparent",
+        margin: "0 15rem"
     },
     backButton: {
         marginRight: theme.spacing(1),
@@ -93,6 +110,7 @@ function ComponentStepper({ handleAnswer, activeStep, setActiveStep, outPut, ini
             <div className={classes.root} style={{ marginBottom: "5rem" }}>
                 <Container>
                     <Stepper
+                        className={classes.myStepper}
                         alternativeLabel
                         activeStep={activeStep}
                         connector={<ColorlibConnector />}
